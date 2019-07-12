@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 
-export const Characters = styled.div`
+export const CharStyle = styled.div`
   box-shadow: 0 5px 10px orangered;
   height: 300px;
   width: 300px;
