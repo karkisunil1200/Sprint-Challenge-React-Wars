@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 
+import './StarWarCharacters.css';
+
 import Character from '../Character/Character';
 
 function StarWarCharacters() {
@@ -18,7 +20,7 @@ function StarWarCharacters() {
   }, []);
 
   return (
-    <div>
+    <div className='characters'>
       {characters.map(char => {
         return <Character character={char} />;
       })}

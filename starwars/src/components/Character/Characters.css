@@ -1,0 +1,9 @@
+.char {
+    box-shadow: 0 5px 10px red;
+    height: 300px; 
+    width: 300px;
+    background: white;
+    margin: 10px;
+    padding-top: 5px;
+}
+
